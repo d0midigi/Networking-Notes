@@ -3,23 +3,23 @@
 
 title: hackh3rway cybersecurity
 url: "https://long-pig.cloudvent.net"
-baseurl:
-google_analytics_key:
+baseurl: ""  # Specify baseurl if necessary
+google_analytics_key: ""  # Empty key if not used
 show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: Product documentation template for Jekyll.
-author: mindhackdiva
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+author:
+  name: ""
+  email: ""
+  twitter: ""  # twitter username without the @ symbol
 social:
   name: hackh3rway cybersecurity
   links:
     - https://github.com/d0midigi
 
-# -----
+# ----- 
 # Build
 
 timezone: PST
@@ -44,13 +44,11 @@ collections:
     output: true
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: default
-  -
-    scope:
+  - scope:
       path: ""
       type: "docs"
     values:
@@ -63,15 +61,14 @@ defaults:
         content:
           width: 800
           height: 2000
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       _comments:
         type: Marks the impact of this release
 
-# -----------
+# ----------- 
 # CloudCannon
 
 types:
