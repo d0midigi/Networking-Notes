@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Edition Template
+title: hackh3rway cybersecurity
 url: "https://long-pig.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -10,19 +10,19 @@ show_full_navigation: true
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: Product documentation template for Jekyll.
-author:
+author: mindhackdiva
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Edition Template
+  name: hackh3rway cybersecurity
   links:
-    - https://github.com/CloudCannon/edition-jekyll-template
+    - https://github.com/d0midigi
 
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: PST
 
 permalink: pretty
 
