@@ -34,7 +34,7 @@ table {
 	-webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
 	-moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
 	-o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-	font-family: "Oswald", sans-serif;
+	font-family: "Oswald Thin", sans-serif;
 	text-rendering: geometricPrecision;
 }
 
@@ -47,7 +47,7 @@ h6 {
 	color: #ff00ab;
 	line-height: 1.15em;
 	margin: 0 0 0.4em 0;
-	font-weight: 400;
+	font-weight: 200;
 }
 
 h1 {
@@ -83,7 +83,7 @@ a {
 }
 
 a:hover {
-	color: #111;
+	color: #ff00ab;
 }
 
 p,
@@ -119,7 +119,7 @@ dl dt {
 	text-align: right;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	font-weight: 700;
+	font-weight: 200;
 	margin-bottom: 1em;
 }
 
