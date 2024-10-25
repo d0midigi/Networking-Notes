@@ -62,7 +62,7 @@ body {
 		&::before {
 			left: $nav-width;
 			right: 0;
-			background-color: $content-background-color;
+			background-color: #000000;
 		}
 	}
 }
@@ -86,7 +86,7 @@ header {
 	right: 0;
 	overflow-x: hidden;
 	z-index: 1;
-	background-color: $nav-background-color;
+	background-color: #000000;
 
 	ul {
 		padding: 0;
@@ -253,7 +253,7 @@ nav > ul {
 	&.current > a,
 	> a:active,
 	> a:hover {
-		color: #111;
+		color: #ff00ab;
 	}
 
 	&.top-level > a {
